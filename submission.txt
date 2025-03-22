@@ -1,0 +1,14 @@
+# Menjalankan skrip
+python main.py
+
+# Menjalankan unit test pada folder tests
+python -m pytest tests
+
+# Menjalankan test coverage pada folder tests
+coverage run -m pytest tests
+
+# Menampilkan laporan cakupan di terminal
+coverage report
+
+# Menampilkan laporan cakupan dalam format HTML
+coverage html
